@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "module": "ESNext",
+        "isolatedModules": true,
+        "useDefineForClassFields": true,
+        "target": "es5",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["src/*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
